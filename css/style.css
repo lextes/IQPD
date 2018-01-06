@@ -99,3 +99,22 @@ footer a {color:#dfd2e7}
     border: 0
 }
  
+
+/*ligthbox*/
+
+
+
+#wizards {
+	width: 500px; margin: 200px auto;
+}
+
+#wizards li {
+	list-style: none; float: left; margin: 15px;
+}
+
+	#wizards a img {
+		border: 5px solid #aaa;
+	}
+		#wizards a:hover img {
+			border: 5px solid #75879d;
+		}
