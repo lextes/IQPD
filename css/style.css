@@ -83,14 +83,15 @@ footer a {color:#dfd2e7}
 .egt th {
     padding: .2em .8em;
     border: 1px solid rgba(20, 50, 90, 0.25);
-    background: rgba(0, 102, 255, 0.25);
+    background: rgba(62, 19, 83, 0.60);
+    color: white;
     text-align: left
 }
 
 .egt td {
     padding: .2em .8em;
     border: 1px solid rgba(16, 76, 167, 0.25);
-    background: rgba(90, 156, 255, 0.25);
+    background: rgba(202, 148, 230, 0.50);
     text-align: left
 }
 
