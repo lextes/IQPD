@@ -88,6 +88,15 @@ footer a {color:#dfd2e7}
     text-align: left
 }
 
+.egt2 th {
+    padding: .2em .8em;
+    border: 1px solid rgba(20, 50, 90, 0.25);
+    background: rgba(30, 30, 93, 1);
+    color: white;
+    text-align: left
+}
+
+
 .egt td {
     padding: .2em .8em;
     border: 1px solid rgba(16, 76, 167, 0.25);
@@ -101,9 +110,8 @@ footer a {color:#dfd2e7}
 }
  
 
+
 /*ligthbox*/
-
-
 
 #wizards {
 	width: 500px; margin: 200px auto;
