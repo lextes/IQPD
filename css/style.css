@@ -136,61 +136,61 @@ footer a {color:#dfd2e7}
 
 .bodySlide {
   
-  font: 14px/20px Helvetica, Arial, sans-serif;
-  font-size: 20px;
-  margin: 20px auto 0;
-  margin-left: 280px;
-  max-width: 800px;
+  font: 14px/20px Helvetica, Arial, sans-serif      !important;
+  font-size: 20px               !important ;
+  margin: 20px auto 0           !important ;
+  margin-left: 280px            !important ;   
+  max-width: 800px              !important ;
   
-  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased !important ;
   }
 
 
 .callbacks_container {
-  margin-bottom: 150px;
-  position: relative;
-  float: left;
-  width: 100%;
+  margin-bottom: 150px !important ;
+  position: relative !important ;
+  float: left !important ;
+  width: 100% !important ;
   }
 
 .callbacks .caption {
-  display: block;
-  position: absolute;
-  z-index: 2;
-  font-size: 20px;
-  text-shadow: none;
-  color: #fff;
-  background: rgba(0,0,0, .8);
-  left: 0;
-  right: 0;
-  bottom: 0;
-  padding: 10px 20px;
-  margin: 0;
-  max-width: none;
+  display: block !important ;
+  position: absolute !important ;
+  z-index: 2 !important ;
+  font-size: 20px !important ;
+  text-shadow: none !important ;
+  color: #fff !important ;
+  background: rgba(0,0,0, .8) !important ;
+  left: 0 !important ;
+  right: 0 !important ;
+  bottom: 0 !important ;
+  padding: 10px 20px !important ;
+  margin: 0 !important ;
+  max-width: none !important ;
   }
 
 .callbacks_nav {
-  position: absolute;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
-  top: 52%;
-  left: 0;
-  opacity: 0.7;
-  z-index: 3;
-  text-indent: -9999px;
-  overflow: hidden;
-  text-decoration: none;
-  height: 61px;
-  width: 38px;
-  background: transparent url("themes/themes.gif") no-repeat left top;
-  margin-top: -45px;
+  position: absolute !important ;
+  -webkit-tap-highlight-color: rgba(0,0,0,0) !important ;
+  top: 52% !important ;
+  left: 0 !important ;
+  opacity: 0.7 !important ;
+  z-index: 3 !important ;
+  text-indent: -9999px !important ;
+  overflow: hidden !important ;
+  text-decoration: none !important ;
+  height: 61px !important ;
+  width: 38px !important ;
+  background: transparent url("themes/themes.gif") no-repeat left top !important ;
+  margin-top: -45px !important ;
   }
 
 .callbacks_nav:active {
-  opacity: 1.0;
+  opacity: 1.0 !important ;
   }
 
 .callbacks_nav.next {
-  left: auto;
-  background-position: right top;
-  right: 0;
+  left: auto !important ;
+  background-position: right top !important ;
+  right: 0 !important ;
   }
