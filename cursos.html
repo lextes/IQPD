@@ -8,11 +8,35 @@
 <link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
 <link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
 <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+
+<link rel="stylesheet" href="css/slider/responsiveslides.css">
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+  <script src="js/responsiveslides.min.js"></script>
+
+
 <script type="text/javascript" src="js/jquery-1.4.2.js" ></script>
 <script type="text/javascript" src="js/cufon-yui.js"></script>
 <script type="text/javascript" src="js/cufon-replace.js"></script> 
 <script type="text/javascript" src="js/Myriad_Pro_300.font.js"></script>
 <script type="text/javascript" src="js/Myriad_Pro_400.font.js"></script>
+  <script>
+    $(function () {
+      $("#slider").responsiveSlides({
+        auto: false,
+        pager: false,
+        nav: true,
+        speed: 500,
+        namespace: "callbacks",
+        before: function () {
+          $('.events').append("<li>before event fired.</li>");
+        },
+        after: function () {
+          $('.events').append("<li>after event fired.</li>");
+        }
+      });
+
+    });
+  </script>
 <!--[if lt IE 9]>
 	<script type="text/javascript" src="http://info.template-help.com/files/ie6_warning/ie6_script_other.js"></script>
 	<script type="text/javascript" src="js/html5.js"></script>
@@ -64,6 +88,64 @@
 		</section>
 	</div>
 </div>
+
+
+<div class="callbacks_container bodySlide">
+	<p class="textColor">PRueba</p>
+      <ul class="rslides" id="slider">
+        <li>
+          <img src="images/curs2.jpg" alt="">
+          <p class="caption">Recibiendo sus diplomas</p>
+        </li>
+        <li>
+          <img src="images/curs3.jpg" alt="">
+          <p class="caption">Consideramos vital el que tu aprendas correctamente</p>
+        </li>
+        <li>
+          <img src="images/curs4.jpg" alt="">
+          <p class="caption">Siempre un ambiente agradable</p>
+        </li>
+        <li>
+          <img src="images/curs5.jpg" alt="">
+          <p class="caption">De mutuo respeto</p>
+        </li>
+        <li>
+          <img src="images/curs6.jpg" alt="">
+          <p class="caption">Nuestros alumnos destacan por sus conocimientos</p>
+        </li>
+        <li>
+          <img src="images/curs7.jpg" alt="">
+          <p class="caption">Tu esfuerzo valdra la pena</p>
+        </li>
+        <li>
+          <img src="images/curs8.jpg" alt="">
+          <p class="caption">Tus diplomas tienen validez oficial</p>
+        </li>
+        <li>
+          <img src="images/curs9.jpg" alt="">
+          <p class="caption">Las clases son interactivas y todos aprendemos</p>
+        </li>
+        <li>
+          <img src="images/curs10.jpg" alt="">
+          <p class="caption">Tu participacion es vital para que estos 18 meses los disfrutes</p>
+        </li>
+        <li>
+          <img src="images/curs11.jpg" alt="">
+          <p class="caption">Puedes tomar distintos tipos de horarios</p>
+        </li>
+        <li>
+          <img src="images/curs12.jpg" alt="">
+          <p class="caption">Tus clases estaran enfocadas a la experiencia de un profesional protesista</p>
+        </li>
+        <li>
+          <img src="images/curs13.jpg" alt="">
+          <p class="caption">Nuestro local</p>
+        </li>
+
+      </ul>
+    </div>
+
+
 <div class="main">
 	<section id="content">
 		<div class="wrapper pad_bot1">
