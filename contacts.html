@@ -72,16 +72,21 @@
 	<section id="content">
 		<article class="pad_left2">
 			<h2>¿Qué necesitas saber? Te atenderemos lo más pronto posible</h2>
-			<form id="ContactForm" action="">
+			<form action="https://formspree.io/forza1708@gmail.com" method="POST">
 				<div class="wrapper">
-					<div class="wrapper"><input type="text" class="input" placeholder="Nombre:" /></div>
-					<div class="wrapper"><input type="text" class="input" placeholder="E-mail:" /></div>
-					<div class="wrapper"><textarea cols="1" rows="1" placeholder="Tu mensaje:"></textarea></div>
+					<div class="wrapper"><input type="text" name="Nombre:" class="input" placeholder="Nombre:" /></div>
+					<div class="wrapper"><input type="text" name="email" class="input" placeholder="Email:" /></div>
+					<div class="wrapper"><textarea cols="100" name="Mensaje:" rows="20" placeholder="Tu mensaje:"></textarea></div>
 					<div class="wrapper">
-						<h3><a href="#" class="link1 right" onClick="document.getElementById('ContactForm').submit()">Enviar</a></h3>
+						
+							<input type="submit" value="Send"></h3>
 						<h3><a href="#" class="link1 right" onClick="document.getElementById('ContactForm').reset()">Limpiar</a></h3>
 					</div>
 				</div>
+				
+				    
+				    
+				</form>
 			</form>
 		</article>
 	</section>
