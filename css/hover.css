@@ -491,7 +491,7 @@
 
 .hvr-skew-forward:hover, .hvr-skew-forward:focus, .hvr-skew-forward:active {
   -webkit-transform: skew(-10deg);
-  transform: skew(-10deg);
+  transform: skew(-20deg);
   background-color: #7b6078;
 }
 
