@@ -39,7 +39,18 @@ header {width:100%;overflow:hidden;padding-bottom:22px}
 #menu li {float:left;padding-right:9px;background:url(../images/menu_line.png) right 6px no-repeat;margin-right:8px}
 #menu .bg_none {background:none;padding:0;margin:0}
 #menu li a {display:block;font-size:16px;font-weight:400;color:#fff;line-height:31px;padding:0 9px;text-decoration:none;position:relative;behavior:url(js/PIE.htc)}
-#menu li a:hover, #menu #menu_active a {background:url(../images/menu_bg.gif) top repeat-x #b3b3b3;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;box-shadow:3px 3px 5px #402f55;-moz-box-shadow:3px 3px 5px #402f55;-webkit-box-shadow:3px 3px 5px #402f55;color:#673f85;}
+
+#menu li a:hover, #menu #menu_active a {
+  background:url(../images/menu_bg.gif) 
+  top repeat-x #b3b3b3;
+  border-radius:5px;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  box-shadow:3px 3px 5px #402f55;
+  -moz-box-shadow:3px 3px 5px #402f55;
+  -webkit-box-shadow:3px 3px 5px #402f55;
+  color:#673f85;
+}
 .text1 {font-size:30px;font-weight:300;color:#fff;line-height:39px;padding:24px 0 15px 0}
 .text1 span {display:block;margin-top:-10px}
 header p {color:#9688a7;padding-bottom:17px}
